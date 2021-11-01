@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"GinDemo/entity"
+	"GinDemo/bubble/entity"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

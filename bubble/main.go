@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GinDemo/dao"
-	"GinDemo/entity"
-	"GinDemo/routers"
+	"GinDemo/bubble/dao"
+	"GinDemo/bubble/entity"
+	"GinDemo/bubble/routers"
 	"fmt"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

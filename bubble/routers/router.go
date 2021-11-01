@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"GinDemo/controller"
+	"GinDemo/bubble/controller"
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,7 +16,7 @@ func SetRouter() *gin.Engine {
 	// 告诉Gin框架模板文件引用的静态文件去哪里找
 	r.Static("/static", "static")
 	// 告诉Gin框架去哪里找模板文件
-	r.LoadHTMLGlob("templates/*")
+	r.LoadHTMLGlob("E:/go/gin/GinDemo/bubble/templates/*")
 
 	// 访问待办事项首页
 	r.GET("/", controller.IndexHandler)

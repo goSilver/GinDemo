@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"GinDemo/dao"
+	"GinDemo/bubble/dao"
 )
 
 type Todo struct {
